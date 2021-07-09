@@ -1,0 +1,4 @@
+curl -X GET \
+  http://localhost:8080/stocks/getWatchList \
+  -H 'Postman-Token: 44a8c3ed-2616-4105-b4f2-f8f625a27c17' \
+  -H 'cache-control: no-cache'

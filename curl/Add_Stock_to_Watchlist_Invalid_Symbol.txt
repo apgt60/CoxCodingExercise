@@ -1,0 +1,8 @@
+curl -X POST \
+  http://localhost:8080/stocks/addStock \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: e7369c79-79eb-4464-a184-f18b07ac9e9a' \
+  -H 'cache-control: no-cache' \
+  -d '{
+    "symbol": "notfound"
+}'

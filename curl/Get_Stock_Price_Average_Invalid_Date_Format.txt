@@ -1,0 +1,10 @@
+curl -X POST \
+  http://localhost:8080/stocks/getAveragePriceForStock \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: a9736467-722a-4f8d-9db4-f70ccd5bf239' \
+  -H 'cache-control: no-cache' \
+  -d '{
+    "symbol": "goog",
+    "startDate": "abcd",
+    "endDate": "2021-03-05"
+}'

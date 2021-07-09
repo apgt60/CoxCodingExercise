@@ -1,0 +1,8 @@
+curl -X POST \
+  http://localhost:8080/stocks/addStock \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: 12947ac9-737a-4aa8-bf25-9c34b0bed457' \
+  -H 'cache-control: no-cache' \
+  -d '{
+    "symbol": "goog"
+}'

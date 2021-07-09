@@ -1,0 +1,8 @@
+curl -X POST \
+  http://localhost:8080/stocks/removeStock \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: 2e6a1e7c-1681-4404-b45f-d109caa36134' \
+  -H 'cache-control: no-cache' \
+  -d '{
+ "symbol":"goog"
+}'
